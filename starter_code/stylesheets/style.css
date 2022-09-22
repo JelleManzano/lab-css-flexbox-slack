@@ -8,3 +8,112 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+  margin: 0;
+}
+
+.firstNav {
+  background-color: #540b51;
+  position: sticky;
+  width: 100vw;
+  padding: 10px 0 10px 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+/*No consigo que el nav scrolle hacia abajo con el resto de la página*/
+.slack-logo {
+  width: 80px;
+  margin-left: 10px;
+}
+
+.firstNav ul {
+  display: none;
+}
+
+.button-nav {
+  background-color: #540b51;
+  border: 0;
+}
+
+.button-images {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.header-div {
+  background-color: #540b51;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-teamwork {
+  width: 90%;
+  text-align: center;
+}
+.p-span {
+  color: #ecb12f;
+}
+
+.header-div button {
+  width: 100%;
+}
+
+.header-div img {
+  width: 100%;
+}
+
+.button-sign {
+  color: #540b51;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 0px;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  border-radius: 3%;
+  border: 0;
+}
+
+.button-google {
+    background-color: #4285f4;
+    width: 100%;
+    border: 0;
+    border-radius: 3%;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.button-google img {
+    background-color: white;
+    width: 20px;
+    padding: 5px;
+    position: absolute;
+    left: 3px;
+}
+.button-google span {
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero-product {
+    overflow: hidden;
+    max-height: 280px;
+}
+
+.hero-product img {
+    width: 550px;
+    height: 330px;
+    margin-left: 15%;
+}
